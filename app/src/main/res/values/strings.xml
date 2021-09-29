@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">My E-card</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="todo">TODO</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="my_e_card">My E-card</string>
+    <string name="all_card_into_one">All Card into One</string>
+    <string name="add_view">Add/View</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="chats">Chats</string>
+    <string name="create_card">Create Card</string>
+    <string name="import_contacts">Import Contacts</string>
+    <string name="transfer">Transfer</string>
+    <string name="card_categories">Card Categories</string>
+    <array name="countries">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Germany</item>
+    </array>
+    <string name="qr_hint">Hover to QR-code</string>
+
+    <string name="MAP_API_KEY">AIzaSyDK7yQ9SQoqSrr6LddBxXvkHfXAVh4WDjw</string>
+    <string name="storage_rationale">The Storage permission is necessary to Download or Set Wallpaper</string>
+    <string name="storage_deny_dialog">Without Storage permission you cant Download or Set Wallpaper</string>
+    <string name="textview">TextView</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="Add_New">Add New</string>
+    <string name="edit">Edit Contact</string>
+    <string name="delete">Delete Contact</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="country">City/State/Zip</string>
+    <string name="save">Save Contact</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_display_contacts">DisplayContacts</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_activity_actual_contact">Actual Contact</string>
+
+</resources>

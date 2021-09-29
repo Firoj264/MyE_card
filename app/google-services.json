@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1044879039273",
+    "project_id": "digitalcardscanner-8e162",
+    "storage_bucket": "digitalcardscanner-8e162.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044879039273:android:71827dafe96ad8123a3538",
+        "android_client_info": {
+          "package_name": "com.example.digitalcardscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044879039273-sfcjkr47jprhv6sio8r10aaj13scrf1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaiLiIuTlCjLtXVoFyOAHz6cVtO7XWAj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044879039273-sfcjkr47jprhv6sio8r10aaj13scrf1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
