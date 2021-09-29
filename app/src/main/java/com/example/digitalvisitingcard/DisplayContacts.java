@@ -93,8 +93,6 @@ public class DisplayContacts extends AppCompatActivity {
             //place.setFocusable(false);
             //place.setClickable(false);
         }
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

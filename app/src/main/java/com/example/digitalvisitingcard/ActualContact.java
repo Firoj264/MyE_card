@@ -30,8 +30,6 @@ public class ActualContact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actual_contact);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         int Value = 0;
         DBHelper mydb = new DBHelper(this);
         Bundle extras = getIntent().getExtras();
