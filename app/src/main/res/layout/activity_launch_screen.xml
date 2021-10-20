@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.qrcodescanner.Activity.LaunchScreenActivity">
+    tools:context="com.example.scanner.Activity.LaunchScreenActivity">
 
     <ImageView
         android:layout_width="match_parent"

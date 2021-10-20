@@ -10,7 +10,6 @@
     <color name="textColorPrimary">#FFFFFB</color>
     <color name="textColorPrimaryInverse">#1C1C1C</color>
     <color name="overlay">#AA1C1C1C</color>
-    <color name="divider">#333333</color>
     <color name="off_white">#fffafafa</color>
     <color name="red">#c62828</color>
     <color name="underline">#D8D6D6</color>
@@ -22,7 +21,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#ffffff</color>
-    <color name="darkgrey">#5b5252</color>
     <color name="main_icon_bg">#fcfcfc</color>
     <color name="listview_header">#0c68a9</color>
 
@@ -43,7 +41,7 @@
     <item name="teal" type="color">#009688</item>
     <item name="pink" type="color">#E91E63</item>
     <item name="indigo" type="color">#303F9F</item>
-    <item name="grey" type="color">#455A64</item>
+
     <item name="brown" type="color">#795548</item>
 
     <integer-array name="androidcolors">
@@ -60,7 +58,6 @@
         <item>@color/teal</item>
         <item>@color/pink</item>
         <item>@color/indigo</item>
-        <item>@color/grey</item>
         <item>@color/brown</item>
     </integer-array>
 </resources>

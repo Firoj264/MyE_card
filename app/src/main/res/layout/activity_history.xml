@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#CCC8C8"
-    tools:context="com.example.qrcodescanner.Activity.HistoryActivity">
+    tools:context="com.example.scanner.Activity.HistoryActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:scaleType="centerCrop"
             tools:ignore="OnClick" />
 
-        <com.example.qrcodescanner.Customwidgets.CustomTextView
+        <com.example.scanner.Customwidgets.CustomTextView
             android:text="History"
             android:textColor="@android:color/black"
             android:textSize="22sp"

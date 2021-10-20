@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ba"
-    tools:context="com.example.bcmaker.cardActivity">
+    tools:context="com.example.createcard.cardActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/finalCard1"

@@ -4,7 +4,7 @@
     tools:showIn="navigation_view">
 
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_about"
             android:icon="@drawable/ic_baseline_assistant_24"
             android:title="About" />
         <item
@@ -12,16 +12,16 @@
             android:icon="@drawable/ic_baseline_message_24"
             android:title="Messages" />
         <item
-            android:id="@+id/synch"
-            android:icon="@drawable/ic_baseline_sync_24"
-            android:title="Synch" />
+            android:id="@+id/contactlist"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:title="Contact List" />
 
         <item
-            android:id="@+id/settings"
-            android:icon="@drawable/ic_baseline_settings_24"
-            android:title="Settings" />
+            android:id="@+id/nav_yourcard"
+            android:icon="@drawable/ic_baseline_credit_card_24"
+            android:title="Your Card" />
     <item
-        android:id="@+id/trash"
+        android:id="@+id/developers"
         android:icon="@drawable/ic_baseline_engineering_24"
         android:title="Developers" />
 

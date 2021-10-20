@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PatternActivity">
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logos"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Your Pattern"
+        android:fontFamily="@font/berkshire_swash"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        app:normalStateColor="#5BABEA"
+        app:correctStateColor="#53DC58"
+        app:wrongStateColor="@color/red"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_light"
+        android:text="Set Pattern"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#6DE842"
+        android:textColor="#0B0A0A"
+        android:layout_margin="20dp" />
+
+
+</LinearLayout>

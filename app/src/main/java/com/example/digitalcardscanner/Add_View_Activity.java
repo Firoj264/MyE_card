@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.example.addviewbc.MainActivitybcr;
+
 public class Add_View_Activity extends AppCompatActivity{
 
     ImageView back_button,plusbutton;
@@ -77,33 +79,29 @@ public class Add_View_Activity extends AppCompatActivity{
         businesscard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.bcrapp");
+                Intent intent=new Intent(Add_View_Activity.this, MainActivitybcr.class);
                 startActivity(intent);
-                finish();
             }
         });
         studentcards.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.bcrapp");
+                Intent intent=new Intent(Add_View_Activity.this, MainActivitybcr.class);
                 startActivity(intent);
-                finish();
             }
         });
         visitingcard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.bcrapp");
+                Intent intent=new Intent(Add_View_Activity.this, MainActivitybcr.class);
                 startActivity(intent);
-                finish();
             }
         });
         bankcards.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.bcrapp");
+                Intent intent=new Intent(Add_View_Activity.this, MainActivitybcr.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -113,6 +111,7 @@ public class Add_View_Activity extends AppCompatActivity{
         back_button.setOnClickListener(v -> {
             Intent intent=new Intent(Add_View_Activity.this,MainActivity.class);
             startActivity(intent);
+            finish();
         });
         plusbutton.setOnClickListener(v -> {
             Intent intent=new Intent(Add_View_Activity.this,AddNewcategory.class);

@@ -9,7 +9,6 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="todo">TODO</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -17,12 +16,13 @@
     <string name="my_e_card">My E-card</string>
     <string name="all_card_into_one">All Card into One</string>
     <string name="add_view">Add/View</string>
-    <string name="scan_qr">Scan QR</string>
+    <string name="scan_qr">Scan/Generate QR</string>
     <string name="chats">Chats</string>
     <string name="create_card">Create Card</string>
     <string name="import_contacts">Import Contacts</string>
     <string name="transfer">Transfer</string>
     <string name="card_categories">Card Categories</string>
+    <string name="about_app">The use of printed business card results in a large amount of paper waste produced annually. In this modern world, almost every people around the world own at least a digital device. According to the modern world, the printed business card should be digitalized. Although there are some digital business card application available in the market but it does not reduce the use of hardcopy business card effectively. But we think that if the business card will create by phone and that card can be easily share with another phone user it will be great and helpful for all type of people. My E-card Application is intended to develop a mobile application for the interactive digital business card and visiting card. Not only the business card but also NID cards, bank cards, student cards, visiting card are also be scan and stored in phone storage. The interactive feature of this mobile application included the dynamic content of digital business card, create business card and visiting card with attractive card template, scanning function to scan and save hardcopy of all types of business cards, visiting cards and QR code generator for a personal business card for easy exchange. Firebase is a cloud-hosted real-time database used to sync data and perform dynamic content. On the other hand, Google Mobile Vision API which provides optical character recognition (OCR) technology is used to implement the scanning function to scan hardcopy of all type of cards and save the information to the memory using text recognition system. Lastly, the ZXing ("zebra crossing") is an open-source, multi-format 1D/2D barcode image processing library implemented in Java that allows an Android device with imaging hardware to scan barcodes or 2D barcodes and retrieve the data encoded. All the objective of the project had been achieved successfully and some of new features also be added. As a conclusion, the mobile application for the My E-card is introduced to promote the ‘paperless office’ and reduce the use of various card and documents hardcopy.</string>
     <array name="countries">
         <item>Bangladesh</item>
         <item>India</item>
@@ -36,7 +36,6 @@
     <string name="MAP_API_KEY">AIzaSyDK7yQ9SQoqSrr6LddBxXvkHfXAVh4WDjw</string>
     <string name="storage_rationale">The Storage permission is necessary to Download or Set Wallpaper</string>
     <string name="storage_deny_dialog">Without Storage permission you cant Download or Set Wallpaper</string>
-    <string name="textview">TextView</string>
 
 
     <string name="action_settings">Settings</string>
@@ -58,4 +57,66 @@
     <string name="title_activity_reader">ReaderActivity</string>
     <string name="title_activity_actual_contact">Actual Contact</string>
 
+    <string name="app_description">A photographic business card reader and profile management system</string>
+
+    <string name="dialog_confirmation">Are you sure?</string>
+    <string name="dialog_success">Success!</string>
+    <string name="dialog_error_message">Unfortunately, something went wrong...</string>
+    <string name="dialog_error">Error!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="profile_list_button">View Profiles</string>
+
+
+    <string name="camera_reader_button">Start Scanning</string>
+    <string name="camera_reader_instructions">Hold the business card in front of the device\'s camera, then start scanning!</string>
+
+    <string name="profile_creator_alert_read_fail">Unable to read details</string>
+    <string name="profile_creator_alert_read_fail_retry">Rescan</string>
+    <string name="profile_creator_alert_read_fail_manual">Enter manually</string>
+    <string name="profile_creator_alert_read_fail_exit">Exit</string>
+    <string name="profile_creator_form_name">Name</string>
+    <string name="profile_creator_form_job_title">Job Title</string>
+    <string name="profile_creator_form_company">Company</string>
+    <string name="profile_creator_form_telephone">Telephone</string>
+    <string name="profile_creator_form_email">Email</string>
+    <string name="profile_creator_button_save_form">Save</string>
+    <string name="profile_creator_button_rescan">Rescan</string>
+    <string name="profile_creator_button_exit">Exit</string>
+    <string name="profile_creator_confirm_rescan">Discard this profile and rescan?</string>
+    <string name="profile_creator_confirm_exit">Discard this profile and exit?</string>
+    <string name="profile_creator_save_invalid_title">Invalid profile</string>
+    <string name="profile_creator_save_invalid_message">A profile requires a name and company. Please try again.</string>
+    <string name="profile_creator_save_success_message">The profile has been successfully saved.</string>
+    <string name="profile_creator_save_success_scan_another">Scan another</string>
+    <string name="profile_creator_select_button">Select</string>
+
+    <string name="profile_viewer_return_to_list_button">Return to list</string>
+
+
+    <string name="first_slide_title">Scan Your Cards</string>
+    <string name="second_slide_title">Scan Your Documents</string>
+    <string name="third_slide_title">Manage Wallet Money</string>
+    <string name="fourth_slide_title">Chatting With Others</string>
+    <string name="fifth_slide_title">Create Your Own Card</string>
+    <string name="sixth_slide_title">Import Contact List</string>
+    <string name="seventh_slide_title">Scan &amp; Generate QR</string>
+    <string name="eight_slide_title">Sit Back And Enjoy</string>
+
+    <string name="first_slide_desc">You can scan any type of cards like business card,visiting card,student card etc. We will display &amp; store your card information.</string>
+    <string name="second_slide_desc">You can scan any type of documents like license,certificate,nid card etc. We will display &amp; store your documents information.</string>
+    <string name="third_slide_desc">Easily you can manage your wallet money.Add your own payment integration and use this wallet as a business product</string>
+    <string name="fourth_slide_desc">You can chats with another user.You also share your status by one click.Image can be share with this chat function</string>
+    <string name="fifth_slide_desc">You can easily create your own dynamic business card using your photos &amp; share your cards details with other users.</string>
+    <string name="sixth_slide_desc">Easily you can import your contact number with name by using this app. All contacts will be displayed properly.</string>
+    <string name="seventh_slide_desc">Easily you can scan qr code and save this result.Also your can generate your own qr code for share your information</string>
+    <string name="eight_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.</string>
+
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
 </resources>

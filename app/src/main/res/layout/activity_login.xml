@@ -49,6 +49,8 @@
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -68,6 +70,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
@@ -81,12 +85,13 @@
             android:layout_marginTop="44dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
-            android:fontFamily="@font/berkshire_swash"
+            android:fontFamily="@font/roboto_light"
+            android:textStyle="bold"
             android:background="#6DE842"
             android:padding="12dp"
             android:textColorLink="#0B0A0A"
             android:text="@string/login"
-            android:textColor="@color/divider"
+            android:textColor="@color/black"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
@@ -101,7 +106,7 @@
             android:text="@string/forgot_password"
             android:textColor="@color/red"
             android:textSize="18sp"
-            android:fontFamily="@font/berkshire_swash"
+            android:fontFamily="@font/tajawal_regular"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
@@ -117,7 +122,7 @@
             android:text="@string/no_account_yet_create_one"
             android:textColor="@color/blue"
             android:textSize="18sp"
-            android:fontFamily="@font/berkshire_swash"
+            android:fontFamily="@font/tajawal_regular"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
 

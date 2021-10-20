@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logos"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw your Security Pattern"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/berkshire_swash"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:normalStateColor="#5BABEA"
+        app:correctStateColor="#53DC58"
+        app:wrongStateColor="@color/red"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

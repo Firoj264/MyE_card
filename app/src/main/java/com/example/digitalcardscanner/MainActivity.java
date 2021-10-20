@@ -1,5 +1,4 @@
 package com.example.digitalcardscanner;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
@@ -14,9 +13,12 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.example.contactapp.MainActivityimportcontact;
-import com.example.digitalvisitingcard.MainActivitytransfer;
-import com.example.qrcodescanner.Activity.LaunchScreenActivity;
+import com.example.chatsapp.Activities.PhoneNumberActivity;
+import com.example.createcard.savedActivity;
+import com.example.importcontact.ContactViewActivity;
+import com.example.importcontact.MainActivityimportcontact;
+import com.example.transfer.MainActivitytransfer;
+import com.example.scanner.Activity.LaunchScreenActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -56,15 +58,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         transfer.setOnClickListener(v -> {
-            Intent intent=new Intent(MainActivity.this, MainActivitytransfer.class);
+            Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.myecard.ewallet");
             startActivity(intent);
         });
         scan.setOnClickListener(v -> {
-            Intent intent=new Intent(MainActivity.this, LaunchScreenActivity.class);
+            Intent intent=new Intent(MainActivity.this, ScanActivity.class);
             startActivity(intent);
         });
         chats.setOnClickListener(v -> {
-            Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.mychatapp");
+            Intent intent=new Intent(MainActivity.this, PhoneNumberActivity.class);
+            //Intent intent=getPackageManager().getLaunchIntentForPackage("com.mianasad.chatsapp");
             startActivity(intent);
         });
 
@@ -86,19 +89,31 @@ public class MainActivity extends AppCompatActivity {
                 switch (id)
                 {
 
-                    case R.id.nav_home:
-                        Toast.makeText(MainActivity.this, "Home is Clicked", Toast.LENGTH_SHORT).show();break;
+                    case R.id.nav_about:
+                        Intent intent=new Intent(MainActivity.this,AboutActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
                     case R.id.nav_message:
-                        Toast.makeText(MainActivity.this, "Message is Clicked",Toast.LENGTH_SHORT).show();break;
-                    case R.id.synch:
-                        Toast.makeText(MainActivity.this, "Synch is Clicked",Toast.LENGTH_SHORT).show();break;
-                    case R.id.trash:
-                        Toast.makeText(MainActivity.this, "Trash is Clicked",Toast.LENGTH_SHORT).show();break;
-                    case R.id.settings:
-                        Toast.makeText(MainActivity.this, "Settings is Clicked",Toast.LENGTH_SHORT).show();break;
+                        Intent intentm=getPackageManager().getLaunchIntentForPackage("com.mianasad.chatsapp");
+                        startActivity(intentm);
+                        break;
+                    case R.id.contactlist:
+                        Intent contactin=new Intent(MainActivity.this, ContactViewActivity.class);
+                        startActivity(contactin);
+                        break;
+                    case R.id.developers:
+                        Intent intent3=new Intent(MainActivity.this,DevelopersActivity.class);
+                        startActivity(intent3);
+                        finish();
+                        break;
+                    case R.id.nav_yourcard:
+                        Intent intentcard=new Intent(MainActivity.this, savedActivity.class);
+                        startActivity(intentcard);
+                        break;
                     case R.id.nav_login:
-                       Intent intent=new Intent(MainActivity.this,LoginActivity.class);
-                       startActivity(intent);
+                       Intent intent1=new Intent(MainActivity.this,LoginActivity.class);
+                       startActivity(intent1);
                        finish();
                        break;
                     case R.id.nav_share:

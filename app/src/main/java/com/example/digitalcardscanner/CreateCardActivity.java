@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.bcmaker.menuActivity;
+import com.example.createcard.menuActivity;
 
 public class CreateCardActivity extends AppCompatActivity {
 
-    private Button button1,button2;
+    private Button button1;
     ImageView back_button;
 
     @Override
@@ -21,7 +21,6 @@ public class CreateCardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_card);
 
         button1=findViewById(R.id.button1);
-        button2=findViewById(R.id.button2);
         back_button=findViewById(R.id.back_button);
 
         back_button.setOnClickListener(v -> {
@@ -33,13 +32,6 @@ public class CreateCardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(CreateCardActivity.this, menuActivity.class);
-                startActivity(intent);
-            }
-        });
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=getPackageManager().getLaunchIntentForPackage("com.example.bcmaker");
                 startActivity(intent);
             }
         });

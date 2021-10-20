@@ -53,18 +53,6 @@
             tools:layout_editor_absoluteX="155dp"
             tools:layout_editor_absoluteY="204dp" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="75dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:backgroundTint="#6DE842"
-            android:text="Make your business card without Photos"
-            android:textColor="@color/textColorPrimaryInverse"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="155dp"
-            tools:layout_editor_absoluteY="204dp" />
     </LinearLayout>
 
 

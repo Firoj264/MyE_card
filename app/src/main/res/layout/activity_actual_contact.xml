@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.digitalvisitingcard.ActualContact">
+    tools:context="com.example.transfer.ActualContact">
 
 
     <include layout="@layout/content_actual_contact" />

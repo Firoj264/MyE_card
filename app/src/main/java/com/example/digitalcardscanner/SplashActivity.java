@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -18,6 +19,7 @@ public class SplashActivity extends AppCompatActivity {
 
     ImageView appname,layout,welcome;
     LottieAnimationView lottieAnimationView;
+    SharedPreferences onBoardingScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,20 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                onBoardingScreen = getSharedPreferences("onBoardingScreen",MODE_PRIVATE);
+                boolean isFirsTime = onBoardingScreen.getBoolean("firstTime",true);
+                if (isFirsTime){
+                    SharedPreferences.Editor editor = onBoardingScreen.edit();
+                    editor.putBoolean("firstTime",false);
+                    editor.commit();
+                    startActivity(new Intent(SplashActivity.this,OnBoardingScreen.class));
+                    finish();
+                }
+                else
+                {
+                    startActivity(new Intent(SplashActivity.this,PatternActivity.class));
+                    finish();
+                }
 
             }
         },6000);

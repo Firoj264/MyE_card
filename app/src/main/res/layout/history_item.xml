@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.example.qrcodescanner.Customwidgets.CustomTextView
+        <com.example.scanner.Customwidgets.CustomTextView
             android:id="@+id/contextTextView"
             android:textStyle="bold"
             android:textSize="17sp"
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.example.qrcodescanner.Customwidgets.CustomTextView
+            <com.example.scanner.Customwidgets.CustomTextView
                 android:id="@+id/dateTextView"
                 android:layout_toEndOf="@id/date"
                 android:layout_centerVertical="true"

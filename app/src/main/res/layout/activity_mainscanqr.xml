@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.qrcodescanner.Activity.MainActivity"
+    tools:context="com.example.scanner.Activity.MainActivity"
     android:orientation="vertical"
     android:background="#DCDCDC">
 
@@ -26,7 +26,7 @@
             android:src="@mipmap/ic_flash_on"
             android:scaleType="centerCrop" />
 
-        <com.example.qrcodescanner.Customwidgets.CustomTextView
+        <com.example.scanner.Customwidgets.CustomTextView
             android:id="@+id/titleActionBar"
             android:text="Main"
             android:textColor="@android:color/black"
@@ -62,7 +62,7 @@
         android:minHeight="32dp"
         android:layout_height="wrap_content">
 
-        <com.example.qrcodescanner.Customwidgets.CustomTextView
+        <com.example.scanner.Customwidgets.CustomTextView
             android:text="@string/qr_hint"
             android:textStyle="normal"
             android:textColor="@android:color/black"

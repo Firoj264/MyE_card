@@ -43,7 +43,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name"
-                android:inputType="textEmailAddress" />
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
+                android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -59,6 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email Address"
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,6 +79,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,6 +99,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Confirm Password"
+                android:backgroundTint="#8ABEE8"
+                android:textColor="@color/black"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,12 +111,13 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="30dp"
             android:background="#6DE842"
-            android:fontFamily="@font/berkshire_swash"
+            android:fontFamily="@font/roboto_light"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
+            android:textStyle="bold"
             android:padding="12dp"
             android:text="SIGN-UP"
-            android:textColor="@color/divider"
+            android:textColor="@color/black"
             android:textSize="20dp" />
         <TextView
             android:id="@+id/link_signin"
@@ -118,7 +127,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
-            android:fontFamily="@font/berkshire_swash"
+            android:fontFamily="@font/tajawal_regular"
             android:gravity="center"
             android:text="Already have an account? Sign In"
             android:textColor="@color/blue"

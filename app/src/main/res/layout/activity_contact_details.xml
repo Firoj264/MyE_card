@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.contactapp.ContactDetailsActivity">
+    tools:context="com.example.importcontact.ContactDetailsActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
             android:layout_marginLeft="8dp"
             android:gravity="center_vertical"
             android:layout_weight="3.5"
-            android:textColor="@color/darkgrey"
+            android:textColor="@color/black"
             android:id="@+id/tvMobNum"/>
 
         <ImageView
@@ -77,7 +77,7 @@
             android:layout_marginLeft="8dp"
             android:gravity="center_vertical"
             android:id="@+id/tvEmailDet"
-            android:textColor="@color/darkgrey"
+            android:textColor="@color/black"
             android:layout_weight="4.8" />
 
     </LinearLayout>

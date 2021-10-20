@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp" />
 
-    <com.example.qrcodescanner.Customwidgets.CustomTextView
+    <com.example.scanner.Customwidgets.CustomTextView
         android:id="@+id/someText"
         android:text="Some text"
         android:layout_margin="10sp"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.example.qrcodescanner.Customwidgets.CustomButton
+        <com.example.scanner.Customwidgets.CustomButton
             android:id="@+id/searchButton"
             android:text="Search"
             android:textStyle="normal"
@@ -45,7 +45,7 @@
             android:layout_weight="1"
             android:layout_height="48dp" />
 
-        <com.example.qrcodescanner.Customwidgets.CustomButton
+        <com.example.scanner.Customwidgets.CustomButton
             android:id="@+id/copyButton"
             android:text="Copy"
             android:textStyle="normal"
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:layout_height="48dp" />
 
-        <com.example.qrcodescanner.Customwidgets.CustomButton
+        <com.example.scanner.Customwidgets.CustomButton
             android:id="@+id/shareButton"
             android:text="Share"
             android:textStyle="normal"
